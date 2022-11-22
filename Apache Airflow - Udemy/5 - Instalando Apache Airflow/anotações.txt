@@ -1,0 +1,32 @@
+1 Passo: Criar variavel de ambiente AIRFLOW_HOME
+
+   mkdir ~/airflow
+
+   EXPORT AIRFLOW_HOME=~/airflow
+
+2 Passo: Instalar Pip 
+   sudo apt-get install python3-pip 
+
+3 Passo: instalar apache airflow 
+   sudo pip3 install apache-airflow
+
+4 Passo:  Iniciar banco de dados:
+   airflow db init  (alterar no arquivo airflow.cfg o banco de dados escolhido)
+
+
+
+
+
+Criar Usuário no Airflow:
+
+   airflow users create --username admin --firstname Heitor --lastname Silva --role Admin --email h-silva@outlook.com
+
+
+
+Startar Interface Web:
+
+airflow webserver --port 8080  
+
+
+Startar Scheduler do Airflow
+airflow scheduler

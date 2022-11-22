@@ -1,0 +1,17 @@
+O que é Apache Airflow?
+    É uma plataforma para criar, programar e criar fluxos de trabalho de maneira progrmática.
+
+O foco do Airflow é orquestrar a execução de atividades e não se preocupar com oque acontece com a atividade em questão.
+
+DAG -> Grafico aciclo gerenciado
+
+Principal linguagem: Python
+
+O DAG do airflow é dinâmico devido a ser código (Python)
+
+O que o Airflow não é?
+    Não é uma Solução de Streaming/Roteamentos de dados
+
+
+Concorrentes: Oozie ou Azkaban
+
